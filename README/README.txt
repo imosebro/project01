@@ -1,4 +1,4 @@
-ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+//////////////
 CSC174: Team Adonding Poncho (Team 2)
 This team project is a CSC174: Advanced Front End Development course at the University of RochesterÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑGetting Started
 ÑÑÑÑÑÑÑÑÑÑÑÑÑÑ-
