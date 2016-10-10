@@ -4,9 +4,10 @@ CSC174: Team Adonding Poncho (Team 2)
 
 ////////////////////////////////////
 
+
 /*************
 * Description
-***************/This team project is a CSC174: Advanced Front End Development course at the University of Rochester/****************
+***************/This team project is a collaborative project for the CSC174: Advanced Front End Development course at the University of Rochester. The intention of this project is to teams to work collaborative to build a website using an already existing framework. Our team used bootstrap in an attempt to build an alternate improved version of the already existing Computer Science’s Department website./****************
 * Getting Started
 ****************/These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -43,32 +44,21 @@ CSC174: Team Adonding Poncho (Team 2)
 
 /**************
 * Built With
-***************/* Dropwizard - Bla bla bla* Maven - Maybe* Atom - ergaerga
-
-
-/**************
-* Contributing
-***************/Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us./************* Versioning
-*************/We use SemVer for versioning. For the versions available, see the tags on this repository./*************
+***************/* TextEdit - TextEdit was used in the creation of this README.txt file in order to make accessible for every device.* Sublime - All collaborators used Sublime text editor in the editing of all the files in this repository.* MAMP - MAMP was the local server software used in the testing phase of this project.
+* GitHub - Use as the version-control collaborative work software.
+* GitHub Desktop - Interface used to make commits to the online repository.
+* Bootstrap - Bootstrap was the Framework used in the creation of this website./*************
 * Authors 
 **************/
-
-	(Name - GitHub Account)
-	
-	*Ethan Pupkin - epupkin21
-	*Rayan I - Rayan-I
- 	*Evan Basta -  Ebasta24
-	*Joshua Anes -mrbaseballjaa
-	*Elmer Rodriguez - erodri17
-
-	See also the list of contributors who participated in this project.
-
-
-/**********
-* License
-***********/This project is licensed under the MIT License - see the LICENSE.md file for details
-
+(Name - GitHub Account)
+* Ethan Pupkin - epupkin21
+* Rayan I - Rayan-I
+* Evan Basta -  Ebasta24
+* Joshua Anes -mrbaseballjaa
+* Elmer Rodriguez - erodri17
 
 /****************
 * Acknowledgments
-******************/* Hat tip to anyone who's code was used* Inspiration* etc
+******************/* We want to thank Professor Robert Kostin for providing Team Adonding Poncho (Team 02) with such a great challenge. Without you this would haven’t been possible.* We want to thank the TA’s for taking out o their time to help the students of the CSC174 class as well as grade their submissions.
+Copyright © 2016-2018, Elmer Rodriguez, Ethan Pupkin, Rayan Ifthikhar, Evan Basta and Joshua Anes. 
+Last updated: Mon Oct 10 08:30:00 EST 2016.
