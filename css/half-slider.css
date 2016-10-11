@@ -24,6 +24,8 @@ html {
   margin-bottom: 30px;
 }
 
+.navbar-default:hover{background-color: rgba(0, 31, 145, 0.9);}
+
 .input-group {
     margin-top: 8px;
 }
