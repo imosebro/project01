@@ -12,14 +12,14 @@ Fall 2016 Semester
 
 /*************
 * Description
-***************/This team project is a collaborative project for the CSC174: Advanced Front End Development course at the University of Rochester. The intention of this project is to teams to work collaborative to build a website using an already existing framework. Our team used bootstrap in an attempt to build an alternate improved version of the already existing Computer Science’s Department website. The link to the website is: http://www.urcsc170.org/erodri17/project01//****************
+***************/This team project is a collaborative project for the CSC174: Advanced Front End Development course at the University of Rochester. The intention of this project is to teams to work collaborative to build a website using an already existing framework. Our team used bootstrap in an attempt to build an alternate improved version of the already existing Computer Science’s Department website. The link to the website is: http://www.urcsc170.org/ebasta/project01/index.html/****************
 * Getting Started
 ****************/***If You Are A Developer - These are the things you are going to need
 * A text editor (such a TextEdit, Notepad++)
 * A software that allows to host the website locally (such as MAMP/WAMP) in order to do testing
 
 ***If You Want To ONLY See the Final Product
-* Just go to the website by clicking on the link: http://www.urcsc170.org/erodri17/project01/
+* Just go to the website by clicking on the link: http://www.urcsc170.org/ebasta/project01/index.html
 
 /***************
 * Prerequisites
@@ -41,7 +41,7 @@ Fall 2016 Semester
 * Ethan Pupkin - epupkin21
 * Rayan I - Rayan-I
 * Evan Basta -  Ebasta24
-* Joshua Anes -mrbaseballjaa
+* Joshua Anes -joshuaanes
 * Elmer Rodriguez - erodri17
 
 /****************
