@@ -18,7 +18,9 @@
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/justified-nav.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/docs.css" rel="stylesheet">
     <link href="css/half-slider.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -31,36 +33,91 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <!-- Half Page Image Background Carousel Header -->
+
+  <body>
+
+    <div class="container">
+
+      <!-- The justified navigation menu is meant for single line per list item.
+           Multiple lines will require custom code not provided by Bootstrap. -->
+    <div class="masthead">
+        <div class= "row">
+            <div class="col-md-4">
+                <img src="images/hajim-logo.png" class="left-image">
+            </div>
+            <div class="col-md-4">
+                <h1><center><strong>Department of Computer Science</strong></center></h3>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+        
+        <!-- Static navbar -->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!-- logo space <a class="navbar-brand" href="#">Project name</a> -->
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="https://www.cs.rochester.edu/about/index.html">About Us</a></li>
+              <li><a href="https://www.cs.rochester.edu/research/index.html">Research</a></li>
+              <li><a href="https://www.cs.rochester.edu/news-events/events/index.php">Gallery</a></li>
+              <li><a href="https://www.cs.rochester.edu/undergraduate/index.html">Student Resources</a></li>
+              <li><a href="https://enrollment.rochester.edu/apply/">Future Students</a></li>
+              <li><a href="https://www.cs.rochester.edu/about/contact.html">Contact Us</a></li>
+            </ul>
+
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                </div>
+
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <!-- Half Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="fill" style="background-image:url('images/research.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <h2>Conduct cutting-edge research</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="fill" style="background-image:url('images/facultiez.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2>Learn  from world-class faculty</h2>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="fill" style="background-image:url('images/knowledge.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <h2>Apply your knowledge to a range of fields</h2>
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('images/campus.jpg');"></div>
+                <div class="carousel-caption">
+                    <h2>Collaborate across campus and discliplines</h2>
                 </div>
             </div>
         </div>
@@ -75,144 +132,111 @@
 
     </header>
 
-  <body>
-
-    <div class="container">
-
-      <!-- The justified navigation menu is meant for single line per list item.
-           Multiple lines will require custom code not provided by Bootstrap. -->
-    <div class="masthead">
-        <h3 class="text-muted">Department of Computer Science</h3>
-        <nav>
-            <ul class="nav nav-justified">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="https://www.cs.rochester.edu/about/index.html">About Us</a></li>
-            <li><a href="https://www.cs.rochester.edu/research/index.html">Research</a></li>
-            <li><a href="https://www.cs.rochester.edu/news-events/events/index.php">Gallery</a></li>
-            <li><a href="https://www.cs.rochester.edu/undergraduate/index.html">Student Resources</a></li>
-            <li><a href="https://enrollment.rochester.edu/apply/">Future Students</a></li>
-            <li><a href="https://www.cs.rochester.edu/about/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-<!-- <<<<<<< Updated upstream -->
-      </div>
-<!--
-=======
-    </div>
-
->>>>>>> Stashed changes
-
-      <div class="jumbotron">
-        <article>
-        <h1>The World of Programming</h1>
-
-        <p><a class="btn btn-lg btn-success" href="#" role="button"> Learn More!</a></p>
-        </article>
-      </div>
-
-    -->
-
 <!-- Portfolio Grid Section -->
     <aside>
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <hr class="star-primary">
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="https://www.cs.rochester.edu/undergraduate/index.html" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="images/major.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="https://www.cs.rochester.edu/graduate/index.html" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="images/minor.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="https://www.cs.rochester.edu/graduate/index.html" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="images/graduate.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="https://www.cs.rochester.edu/people/faculty/index.html" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="images/faculty.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="https://www.cs.rochester.edu/news-events/index.html" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="images/news.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="https://www.rochester.edu/registrar/calendar.php" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="images/calendar.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                       <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/major.png" class="img-responsive" alt="" height="900" width="650">
-                        <h5> Major </h5>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/minor.png" class="img-responsive" alt="" height="900" width="650">
-                        <h5> Minor</h5>
-                    </a>
-
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/graduate.jpg" class="img-responsive" alt="" height="900" width="650">
-                        <h5> Graduate Studies </h5>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/faculty.png" class="img-responsive" alt="" height="900" width="650">
-                        <h5>Meet the Faculty</h5>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/news.png" class="img-responsive" alt="" height="900" width="650">
-                        <h5> Recent News </h5>
-                    </a>
-
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/calendar.png" class="img-responsive" alt="" height="900" width="650">
-                        <h5>Calendar</h5>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
     </aside>
 
       <!-- Site footer -->
     <footer class="footer">
         <div class= "row">
-        <div class="col-md-4">
-    <p>Department of Computer Science</p>
-    <p>University of Rochester</p>
-    <p>734 Computer Studies Building</p>
-    <p>P.O. Box 270226</p>
-    <p>Rochester, NY 14627</p>
+            <div class="col-md-4">
+                <a class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-google"></i></a>
+                <a class="btn btn-social-icon btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-linkedin"></i></a>
+                <a class="btn btn-social-icon btn-instagram" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-instagram"></i></a>
+                <p>
+                    Copyright © 2016– 
+                    <a href="http://www.rochester.edu/">University of Rochester</a>
+                    |
+                    <a href="http://www.rochester.edu/college/">AS&amp;E</a>
+                    |
+                    <a href="index.html">CSC</a>
+                    <br>
+                    <a href="http://www.rochester.edu/accessibility.html">Accessibility</a>
+                    |
+                    <a href="http://text.rochester.edu/tt/referrer" title="Access a text-only version of this page.">Text</a>
+                    |
+                    <a href="http://www.rochester.edu/college/webcomm/" title="Get help with your AS&amp;E website.">Web Communications</a>
+                </p>
+            </div><!--.col-md-4-->
+            <div class="col-md-4">
+            </div>
+            <div class= "col-md-4">
+                <p>Department of Computer Science</p>
+                <p>University of Rochester</p>
+                <p>734 Computer Studies Building</p>
+                <p>P.O. Box 270226</p>
+                <p>Rochester, NY 14627</p>
 
-    <p>(585) 275-5671</p>
-        </div><!--.col-md-4-->
-    <div class="col-md-4">
-    </div>
-        <div class= "col-md-4">
-    <img src="images/uofrlogo.jpg" class="img-footer" alt="logo">
-        </div><!--.col-md-4-->
+                <p>(585) 275-5671</p>
+            </div><!--.col-md-4-->
         </div><!--.row-->
     </footer>
 
@@ -225,13 +249,16 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
+    <!-- Social Media -->
+    <script src="js/docs.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 5000 //changes the speed
+        interval: 3500 //changes the speed
     })
     </script>
 
