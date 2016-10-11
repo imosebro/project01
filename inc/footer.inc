@@ -2,7 +2,7 @@
         <div class= "row">
             <div class="col-md-4 text-left">
                     <h3>Contact Us</h3>
-                    Copyright © 2016– 
+                    Copyright © 2016–
                     <a href="http://www.rochester.edu/">University of Rochester</a>
                     |
                     <a href="http://www.rochester.edu/college/">AS&amp;E</a>
