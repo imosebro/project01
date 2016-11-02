@@ -9,3 +9,6 @@
 5. Make navbar useable on mobile
 
 6. Validate the code
+
+
+Elmer: Link all the social media to all webpages
