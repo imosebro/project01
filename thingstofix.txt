@@ -1,0 +1,11 @@
+1. Get rid of all other possible links but only those that lead to the other three web pages that we create.
+
+2. Completely fix the colophon
+
+3. Website must be mobile friendly
+
+4. Clean up php includes
+
+5. Make navbar useable on mobile
+
+6. Validate the code
