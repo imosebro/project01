@@ -9,3 +9,22 @@
 5. Make navbar useable on mobile
 
 6. Validate the code
+
+
+Elmer: Link all the social media to all webpages. Also, change the active class in Minors.html navigation bar. Lastly,
+change the web page title of colophon from "about us" to "Department of Computer Science"
+
+Rayan: On majors, minors and graduate studies, delete the side navigation bar and change the class names in the html files
+to span the content over the whole webpage rather than the left hand side. The class names you need to change revolve around 
+the word column. 
+
+Ethan: Work on the navigation bar. This includes making a hamburger menu for when the navigation bar shrinks to a certain width. 
+Lastly, work on php includes for BOTH the navigation/header and the footer. HOWEVER, do not link these until before class and make
+sure they work on your personal hosting website (urcsc170.org/epupkin)
+
+When you work on the navigation php include, you will not be able to manually link the active class to each webpage. This will require 
+javascript and php to fix. Let me (Evan) know if you need some help working on this part and linking it up. However, this information 
+was in one of the labs Kostin had us do. 
+
+Josh: Go to Kostin with improvements that we made to website. Also, email members of team 10 (link us to this email) and tell them
+that we made changes to get a better grade. Apologize for the things they wanted to improve but we already fixed. 
