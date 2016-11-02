@@ -29,12 +29,12 @@ ul.nav a:hover{
   background-color: rgba(0, 31, 145, 0.9) !important;
   color:#f8f8f8 !important; }
 
-.navbar, .navbar-inverse {
+.navbar, .navbar-default {
   border-radius: 0;
   border: none;
 }
 
-.navbar-inverse {
+.navbar-default {
     background-color: #f8f8f8;
 }
 
@@ -42,7 +42,7 @@ ul.nav a:hover{
   display: inline;
 }
 
-.navbar-inverse .navbar-nav li a:hover {
+.navbar-default .navbar-nav li a:hover {
   transition: 0.7s all linear;
   height: 100%;
 }
@@ -194,4 +194,32 @@ footer {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+/*Navbar Hamburger Menu Customization*/
+
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: rgba(0, 31, 145, 0.9);
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+default .navbar-toggle {
+    border-color: #f8f8f8;
+}
+
+default .navbar-toggle .icon-bar {
+    background-color: #f8f8f8;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #bdbdbd;
 }
