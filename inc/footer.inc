@@ -1,4 +1,4 @@
-<!-- Site footer -->
+     <!-- Site footer -->
     <footer class="footer">
         <div class= "row">
             <div class="col-md-4 text-left">
@@ -36,3 +36,33 @@
             </div><!--.col-md-4-->
         </div><!--.row-->
     </footer>
+
+    </div>  <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+
+    <!-- Social Media -->
+    <script src="js/docs.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 3500 //changes the speed
+    })
+    </script>
+
+    <!--highlights navigation bar-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/menu-highlighter.js"></script>
+
+  </body>
+</html>

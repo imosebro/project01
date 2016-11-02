@@ -1,77 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-    <title>Computer Science Department</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap-social.css" rel="stylesheet">
-    <link href="css/docs.css" rel="stylesheet">
-    <link href="css/half-slider.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-
-    <div class="container">
-    	<div class="masthead">
-        	<div class= "row">
-            	<div class="col-md-4">
-                	<img src="images/hajim-logo.png" class="left-image">
-            	</div>
-            	<div class="col-md-4">
-                	<h1><center><strong>Department of Computer Science</strong></center></h3>
-            	</div>
-            <div class="col-md-4">
-        	</div>
-     	</div>
-
-		        <!-- Static navbar -->
-		    <nav class="navbar navbar-default navbar-static-top" role="navigation">
-		        <div class="container-fluid">
-		        	<div class="navbar-header">
-
-			 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-				 			<span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-			      		</button>
-		      		</div>
-		         	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		            	<ul class="nav navbar-nav">
-			              <li class="active"><a href="html/index.html">Home</a></li>
-			              <li><a href="html/majors.html">Majors</a></li>
-			              <li><a href="html/minors.html">Minors</a></li>
-			              <li><a href="html/graduate.html">Graduate Studies</a></li>
-			              <li><a href="html/colophon.html">Colophon</a></li>
-		        		</ul>
-		            </div>    <!-- Collect the nav links, forms, and other content for toggling -->
-		      	</div>
-		    </nav>
+    <?php 
+        $currentPage = "index";
+        include "inc/top-part.inc"; 
+    ?>
+	<!--navbar-->
+    <?php include 'inc/nav.inc';?>
 
       <!-- Half Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
@@ -200,67 +132,5 @@
         </section>
     </aside>
 
-      <!-- Site footer -->
-    <footer class="footer">
-        <div class= "row">
-            <div class="col-md-4 text-left">
-                    <h3>Contact Us</h3>
-                    Copyright © 2016–
-                    <a href="http://www.rochester.edu/">University of Rochester</a>
-                    |
-                    <a href="http://www.rochester.edu/college/">AS&amp;E</a>
-                    |
-                    <a href="index.html">CSC</a>
-                    <br>
-                    <a href="http://www.rochester.edu/accessibility.html">Accessibility</a>
-                    |
-                    <a href="http://text.rochester.edu/tt/referrer" title="Access a text-only version of this page.">Text</a>
-                    |
-                    <a href="http://www.rochester.edu/college/webcomm/" title="Get help with your AS&amp;E website.">Web Communications</a>
-            </div><!--.col-md-4-->
-            <div class="col-md-4 text-center">
-                <h3>Around The Web</h3>
-                  <center><a href="https://www.facebook.com/University.of.Rochester" class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-facebook"></i></a>
-                <a href="https://twitter.com/UofR"  class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-twitter"></i></a>
-                <a href="http://tech.rochester.edu/services/gmail/"  class="btn btn-social-icon btn-google" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-google"></i></a>
-                <a href="https://www.linkedin.com/company/university-of-rochester" class="btn btn-social-icon btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/uradmissions/" class="btn btn-social-icon btn-instagram" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-md']);"><i class="fa fa-instagram"></i></a></center>
-            </div>
-            <div class= "col-md-4 text-right">
-                <h3>Location</h3>
-                <p>Department of Computer Science</p>
-                <p>University of Rochester</p>
-                <p>734 Computer Studies Building</p>
-                <p>P.O. Box 270226</p>
-                <p>Rochester, NY 14627</p>
-
-                <p>(585) 275-5671</p>
-            </div><!--.col-md-4-->
-        </div><!--.row-->
-    </footer>
-
-    </div>  <!-- /container -->
-
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-
-    <!-- Social Media -->
-    <script src="js/docs.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 3500 //changes the speed
-    })
-    </script>
-
-  </body>
-</html>
+    <!--Footer & Javascript-->
+    <?php include "inc/footer.inc"; ?>

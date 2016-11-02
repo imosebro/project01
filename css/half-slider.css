@@ -7,11 +7,9 @@
 
 html,
 body {
-    /*
     height: 100%;
     padding-top: 30px;
     padding-bottom: 20px;
-    */
 }
 
 html {
@@ -57,7 +55,6 @@ ul.nav a:hover{
     margin-bottom: 10px;
 }
 
-
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
 
 .carousel {
@@ -68,6 +65,7 @@ ul.nav a:hover{
 .active,
 .carousel-inner {
     height: 100%;
+    background-color:lightgrey;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Computer Science Department<?php echo "$currentPage"; ?></title>
+    <title>Computer Science Department</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,3 +33,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+
+  <body>
+
+    <div class="container">
+        <div class="masthead">
+            <div class= "row">
+                <div class="col-md-4">
+                    <img src="images/hajim-logo.png" class="left-image">
+                </div>
+                <div class="col-md-4">
+                    <h1><center><strong>Department of Computer Science</strong></center></h3>
+                </div>
+            <div class="col-md-4">
+            </div>
+        </div>
