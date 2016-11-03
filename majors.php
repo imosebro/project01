@@ -1,50 +1,92 @@
-    <?php 
+    <?php
         $currentPage = "majors";
-        include "inc/top-part.inc"; 
+        include "inc/top-part.inc";
     ?>
     <!--navbar-->
     <?php include 'inc/nav.inc';?>
 
       <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-md-12">
-            <h1 class="text-center">Find Your Niche in CS</h1>
+            <h1 class="text-center">Undergraduate Program</h1>
           <div class="row">
             <div class="col-md-12">
-                <h2 class="text-left">Overview</h2>
-                <p>The Department of Computer Science at the University of Rochester is well known for its research production and collegial atmosphere.</p>
-                <p>The department offers both a BA and a BS in computer science through their elite undergraduate program. They also grant an MS and PhD in computer science through their intensive graduate program.. </p>
+                <h2 class="text-left">BS Major Requirements</h2>
+                <p>The BS curriculum is made up of qualifying, core and ﻿advanced courses, as well as the upper-level writing requirement.</p>
+                <p>No more than two core or advanced courses can be completed at other institutions. If transfer courses are taken while in residence, they must be pre-approved by the computer science program undergraduate director. </p>
+                <p>Interested students can also complete the honors research program to be awarded “honors in research,” “high honors in research,” or “highest honors in research.”</p>
+                <p>For complete specifics on the BS major requirements, see the Computer Science Undergraduate Handbook.</p>
 
-                <h2 class= "text-left"> Masters Program in Computer Science</h2>
+                <h2 class= "text-left">Qualifying Courses</h2>
+                <p>CSC 171: The Science of Programming</p>
+                <p>MTH 150: Discrete Mathematics or MTH 150A: Discrete Math Module</p>
+                <p>MTH 161: Calculus I*</p>
+                <p>MTH 162: Calculus II*</p>
+                <p>CSC 172: The Science of Data Structures</p>
+                <p>*Calculus sequences MTH 141-MTH 143, or MTH 171Q and MTH 172Q are also acceptable.</p>
 
-                <p>The master’s program offers students a high level of flexibility. Students may focus on one area of computer science, or take courses across the breadth of the field. The degree may be completed on a full-time or part-time basis.</p>
 
-                <p>For students with an undergraduate degree in computer science or a closely related field, the requirements can usually be completed over the course of three semesters.</p>
+                <h2 class= "text-left">Core Courses</h2>
+                <p>CSC 173: Computation and Formal Systems</p>
+                <p>CSC 242: Artificial Intelligence</p>
+                <p>CSC 252: Computer Organization</p>
+                <p>CSC 254: Programming Language Design and Implementation</p>
+                <p>CSC 280: Computer Models and Limitations</p>
+                <p>CSC 282: Design and Analysis of Efficient Algorithms</p>
+                <p>MTH 165: Linear Algebra with Differential Equations **</p>
+                <p>CSC 262: Introduction to Computational Statistics*</p>
+                <p>* This requirement can also be fulfilled with STT/MTH201, STT213 or ECO 230.</p>
+                <p>**Students who take MTH 173Q, or both MTH 163 and MTH 235, may count these options as covering the MTH 165 requirement.</p>
+                <p>Students in 2016-2018 will have the option of doing either CSC 200 or the statistics requirement. Students completing the honors research degree will need to complete CSC 200H and CSC 262 (or substitute).</p>
 
-                <p>We welcome applications from students who did not major in computer science but whose undergraduate work demonstrates strong technical skills. </p>
 
-                <p>This program is for students who intend to complete their studies at the University of Rochester with an MS degree. Students with an undergraduate degree who wish to get their PhD in computer science at Rochester should apply directly to the PhD program.</p>
 
-                 <h2 class= "text-left"> Masters Program in Computer Science</h2>
+                <h2 class= "text-left">Advanced Courses</h2>
+                <p>Students must take three advanced courses in computer science. These courses must be above 200, not included in the core courses, and excluding CSC 390: Supervised Teaching. Students should consult with their faculty adviser or the CS undergraduate coordinator about their advanced course selection.</p>
+                <p>Advanced course specialization is encouraged, but not mandatory. In particular, students are encouraged to select a related set of courses that will prepare them for participation in one of the department’s research projects and/or to complete a senior project.</p>
+                <p>Areas of interest include the following:</p>
+                <ul>
+                    <li>Computer Systems</li>
+                    <li>Natural Language and Knowledge Representation</li>
+                    <li>Machine Learning, Vision and Robotics</li>
+                    <li>Theory</li>
+                    <li>Human Computer Interaction and Web</li>
+                    <li>Data Science</li>
+                </ul>
 
-                <p>The master’s program offers students a high level of flexibility. Students may focus on one area of computer science, or take courses across the breadth of the field. The degree may be completed on a full-time or part-time basis.</p>
+                <p>In addition to the three advanced CSC courses, a BS candidate must complete one of the following:</p>
+                <ul>
+                    <li>CSC 393: Senior Project</li>
+                    <i>One additional advanced course in computer science, mathematics or in other computing related disciplines (See section 4.3 in the Computer Science Undergraduate Handbook for more information)</i>
+                </ul>
 
-                <p>For students with an undergraduate degree in computer science or a closely related field, the requirements can usually be completed over the course of three semesters.</p>
+                <h2 class= "text-left">Advanced Courses</h2>
+                <p>The computer science honors research program requires honors-level coursework and a senior research thesis.</p>
+                <p>There are three degrees of honors awarded:</p>
+                <ul>
+                    <li>Honors in research</li>
+                    <li>High honors in research</li>
+                    <li>Highest honors in research</li>
+                </ul>
+                <p>The degree of honor awarded is determined by the computer science faculty in consultation with the student's honors committee. The quality of the thesis, its presentation, and other CS research and publications throughout the student's undergraduate career are all considered.</p>
 
-                <p>We welcome applications from students who did not major in computer science but whose undergraduate work demonstrates strong technical skills. </p>
+                <p><strong>Honor Requirements</strong></p>
+                <p>CSC 200H: Undergrad Problem Seminar Honors</p>
+                <p>CSC 395H: Honors Senior Thesis</p>
+                <p>CSC 391H: Independent Study-Honors or 393H: Senior Project-Honors</p>
+                <p>Senior Research Thesis</p>
+                <p>For information about the honor program see section 4.4 in the Computer Science Undergraduate Handbook.</p>
 
-                <p>This program is for students who intend to complete their studies at the University of Rochester with an MS degree. Students with an undergraduate degree who wish to get their PhD in computer science at Rochester should apply directly to the PhD program.</p>
-
-                <h2 class= "text-left"> PhD Program </h2>
-                <p>The Department of Computer Science is a research-oriented department with a distinguished history of contributions in systems, theory, artificial intelligence, and HCI. Over the past decade, a third of its PhD graduates have won tenure-track faculty positions, and its alumni include leaders at major research laboratories such as Google, Microsoft, and IBM.</p>
-
-                <h2 class="text-left">Program Overview </h2>
-                <p>Applicants with an undergraduate degree are admitted directly into the PhD program. Students receive an MS degree during their second year, and typically complete their PhD in a total of four to five years.</p>
-
-                <p>The program includes an option for a student to earn a joint PhD in computer science and another department.</p>
-
-                <p>During their first two years, students take courses in all areas of computer science, and complete the qualification requirements for one research area, in order to ensure technical depth. </p>
-
-                <p>A Dissertation Advisory Committee is formed during the first term of the third year. Students are required to submit and defend a thesis proposal during the second term of their third year. The committee conducts a formal review of the student's progress every six months. The final step is to write and defend a PhD thesis.</p>
+                <h2 class ="text-left">Upper-Level Writing Requirement for Computer Science Majors</h2>
+                <p>Every computer science major must develop, in consultation with his or her faculty adviser, a plan that includes two upper-level writing experiences.</p>
+                <p>Each experience must generate at least 25 pages of expository prose, with substantial feedback on content and form, and revision of the work. The 25 pages may be in the form of a single paper or a series of smaller papers.</p>
+                <p>Acceptable writing experiences include the following:</p>
+                <ul>
+                    <li>WRT 273: Communicating Your Professional Identity (2 credits) – taken junior year</li>
+                    <li>"W" Courses in other departments with advisor approval</li>
+                    <li>Designated courses in computer science</li>
+                    <li>Creation of a research paper or published technical report</li>
+                </ul>
+                <p>Students should review section 6 in the Computer Science Undergraduate Handbook and consult their advisor for more information.</p>
 
             </div><!--/.col-xs-6.col-lg-4-->
           </div><!--/row-->
