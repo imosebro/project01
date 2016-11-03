@@ -68,7 +68,7 @@
                     <li>Highest honors in research</li>
                 </ul>
                 <p>The degree of honor awarded is determined by the computer science faculty in consultation with the student's honors committee. The quality of the thesis, its presentation, and other CS research and publications throughout the student's undergraduate career are all considered.</p>
-
+                <br>
                 <p><strong>Honor Requirements</strong></p>
                 <p>CSC 200H: Undergrad Problem Seminar Honors</p>
                 <p>CSC 395H: Honors Senior Thesis</p>
