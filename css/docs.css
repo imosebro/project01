@@ -18,3 +18,28 @@ h2{text-align:center;font-weight:300}
 .social-class li{margin-bottom:4px}.social-class li:hover .social-hex{opacity:1}
 .social-class li:hover code{background-color:#e8e8ee}
 .social-class code{cursor:default}
+
+
+#portfolio{
+	background-color: rgba(208,208,208,0.7);
+	border-radius: 25px 25px 25px 25px;
+
+}
+
+#portfolio li{
+	    list-style-type: none;
+}
+
+#portfolio p{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.footer {
+
+	background-color: rgba(208,208,208,0.7);
+	border-radius: 25px 25px 25px 25px;
+
+	padding-left: 30px;
+	padding-right: 30px;
+}
