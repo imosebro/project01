@@ -20,8 +20,8 @@
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('images/research.jpg');"></div>
-                <div class="carousel-caption">
-                    <h2>Conduct cutting-edge research</h2>
+					<div class="carousel-caption">
+						<h2>Conduct cutting-edge research</h2>
                 </div>
             </div>
             <div class="item">
@@ -70,7 +70,7 @@
                                 </div>
                             </div> -->
                             <img src="images/major.png" class="img-responsive" alt="">
-                        </a>
+ <!--                       </a>   -->
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">Minors</h2>
@@ -80,8 +80,8 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div> -->
-                            <img src="images/minor.png" class="img-responsive" alt="">
-                        </a>
+                            <img src="images/minor.png" class="img-responsive" alt="students at computer">
+ <!--                       </a>   -->
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">Graduates</h2>
@@ -91,8 +91,8 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>-->
-                            <img src="images/graduate.png" class="img-responsive" alt="">
-                        </a>
+                            <img src="images/graduate.png" class="img-responsive" alt="Graduates picture">
+ <!--                       </a>  -->
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">Faculty</h2>
@@ -102,8 +102,8 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>-->
-                            <img src="images/faculty.png" class="img-responsive" alt="">
-                        </a>
+                            <img src="images/faculty.png" class="img-responsive" alt="Faculty picture">
+ <!--                       </a>  -->
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">News</h2>
@@ -113,8 +113,8 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div> -->
-                            <img src="images/news.png" class="img-responsive" alt="">
-                        </a>
+                            <img src="images/news.png" class="img-responsive" alt="Campus picture">
+ <!--                       </a> -->
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">Calendar</h2>
@@ -124,8 +124,8 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>-->
-                            <img src="images/calendar.png" class="img-responsive" alt="">
-                        </a>
+                            <img src="images/calendar.png" class="img-responsive" alt="Calendar picture">
+ <!--                       </a>   -->
                     </div>
                 </div>
             </div>
