@@ -17,3 +17,4 @@ $(function () {
   });
   $($('li', '.social-class')[Math.floor($('li', '.social-class').length * Math.random())]).mouseenter();
 });
+
