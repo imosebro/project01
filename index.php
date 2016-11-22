@@ -69,8 +69,9 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div> -->
+                            <a href="majors.php">
                             <img src="images/major.png" class="img-responsive" alt="">
- <!--                       </a>   -->
+                            </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">Minors</h2>
@@ -80,8 +81,9 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div> -->
+                            <a href="minors.php">
                             <img src="images/minor.png" class="img-responsive" alt="students at computer">
- <!--                       </a>   -->
+                            </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">Graduates</h2>
@@ -91,8 +93,9 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>-->
+                            <a href="graduate.php">
                             <img src="images/graduate.png" class="img-responsive" alt="Graduates picture">
- <!--                       </a>  -->
+                            </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">Faculty</h2>
@@ -102,8 +105,9 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>-->
+                            <a href="https://www.cs.rochester.edu/people/faculty/index.html">
                             <img src="images/faculty.png" class="img-responsive" alt="Faculty picture">
- <!--                       </a>  -->
+                            </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
                         <h2 class="text-center">News</h2>
@@ -113,19 +117,21 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div> -->
+                            <a href="https://www.cs.rochester.edu/news-events/news/index.html">
                             <img src="images/news.png" class="img-responsive" alt="Campus picture">
- <!--                       </a> -->
+                            </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
-                        <h2 class="text-center">Calendar</h2>
+                        <h2 class="text-center">Events</h2>
                         <!--<a href="https://www.rochester.edu/registrar/calendar.php" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>-->
+                            <a href="https://www.cs.rochester.edu/news-events/events/index.php">
                             <img src="images/calendar.png" class="img-responsive" alt="Calendar picture">
- <!--                       </a>   -->
+                            </a>
                     </div>
                 </div>
             </div>

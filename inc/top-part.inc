@@ -40,7 +40,9 @@
         <div class="masthead">
             <div class= "row">
                 <div class="col-md-4">
+                    <a href="index.php">
                     <img src="images/hajim-logo.png" class="left-image">
+                    </a>
                 </div>
                 <div class="col-md-4">
                     <h1><center><strong>Department of Computer Science</strong></center></h3>

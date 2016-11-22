@@ -13,7 +13,7 @@
 			
 			<div class="row">
 		  
-				<div class="col-md-12">  <!--Is this one needed? -->
+				<div class="col-md-123">  <!--Is this one needed? -->
 			
 					<h2 class="text-left">Overview</h2>
 
