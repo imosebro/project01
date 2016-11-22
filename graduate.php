@@ -5,6 +5,11 @@
     <!--navbar-->
     <?php include 'inc/nav.inc';?>
 
+       <?php
+        $currentPage = "search";
+        include "inc/search-engine.inc";
+    ?>
+
     <div class="row row-offcanvas row-offcanvas-right">
 	
         <div class="col-md-12">

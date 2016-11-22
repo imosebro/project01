@@ -6,6 +6,11 @@
     <!--navbar-->
     <?php include 'inc/nav.inc';?>
 
+       <?php
+        $currentPage = "search";
+        include "inc/search-engine.inc";
+    ?>
+
 <!-- Portfolio Grid Section -->
     <aside>
         <section id="portfolio">
